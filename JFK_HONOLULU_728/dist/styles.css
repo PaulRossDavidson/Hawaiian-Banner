@@ -1,0 +1,276 @@
+/*Hat 728 JFK*/
+#ad {
+	position: relative;
+	width: 728px;
+	height: 90px;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-perspective:1000;
+}
+	#ad,#from-dollar,#return,#route{
+	overflow: hidden;
+}
+	#book-frame,#legal{
+	font-family: Arial,Helvetica,sans;
+}
+a,body,div,html,img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#firstscreen,#copy-holder{
+	position: absolute;
+}
+#firstscreen{
+	position: absolute;
+	background-image: url(img/Hat_728.jpg);
+	z-index: 99px;
+	width: 728px;
+	height: 186px;
+}
+#copy-holder {
+	z-index: -99px;
+	height: 100px;
+	width: 200px;
+	top: 25px;
+	left: 60px;
+	font-size: 30px;
+	line-height: 10px;
+}
+#instacredit img{  
+	position: absolute;
+	top: -1px;
+	left: -55px;
+}
+#instacredit{
+	position: relative;
+	opacity: 1;
+	top: 40px;
+	left: -55px;
+	width: 250px;
+	height: 20px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+#amaze img {
+	position: absolute;
+	top: -22px;
+	left: -12px;
+}
+#amaze{
+	position: relative;
+	opacity: 0;
+	top: -24px;
+	left: 192px;
+	width: 250px;
+	height: 30px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+#happen img {
+	position: absolute;
+	top: -58px;
+	left: -5px;
+}
+#happen{
+	position: relative;
+	opacity: 0;
+	top: -57px;
+	left: 190px;
+	width: 250px;
+	height: 30px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+#book-frame{
+	opacity: 0;
+	position: absolute;
+	left: 182px;
+	/*top: 15px;*/   /*on screen*/
+	top: 90px;
+	width: 165px;
+	height: 80px;
+	color: #FFF;
+}
+#fare,#route{
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+}
+#route{
+	left: -2px;
+	top: -10px;
+	height: 22px;	
+}
+#route img{
+	position: absolute;
+	top: -205px;
+	left: -55px;
+}
+#fare{
+	top: 3px;
+	font-weight: bolder;
+	letter-spacing:.01px;
+	left: -10px;
+	width: 180px;
+}
+#num{
+	display: inline;
+	line-height: 0;
+}
+#from-dollar{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 31px;
+	height: 45px;
+	top: 13px;
+	text-align: left;
+}
+#from img{
+	position: absolute;
+	top: -230px;
+	left: -62px;
+}
+#from{
+	position: relative;
+	overflow: hidden;
+	height: 10px;
+	left: 5px;
+	top: 0px;
+}
+#dollar img{
+	position: absolute;
+	top: -241px;
+	left: -60px;
+}
+#dollar{
+	/*margin-top: 15px;*/
+	position: relative;
+	overflow: hidden;
+	height: 35px;
+	left: 3px;
+}
+#price{
+	color: white;
+	width: 130px;
+	height: 100px;
+	display: inline-block;
+	font-size: 62px;
+	/*font-size: 56px;*/  /*for 4 digit price*/
+	/*padding-top: 4px;*/  /*for 4 digit price*/
+	position: relative;
+	right: 3px;
+	/*left: -15px;*/   /*for 4 digit price*/
+}
+#asterisk img{
+	position: absolute;
+	top: -230px;
+	left: -185px;
+}
+#asterisk{
+	position: relative;
+	overflow: hidden;
+	height: 7px;
+	width: 7px;
+	left: 104px;
+	/*left: 124px; */  /*for 4 digit price*/
+	top: -61px;
+	/*top: -54px;*/   /*for 4 digit price*/
+}
+#return img{
+	position: absolute;
+	top: -276px;
+	left: -180px;
+}
+#return{
+	overflow: hidden;
+	position: absolute;
+	width: 12px;
+	height: 10px;
+	margin-top: -24px;
+	right: 18px;
+	/*right: -4px;*/
+	top: 82px;
+}
+#thehawaiian {
+	position: relative;
+	opacity: 0;
+	/*top: -111px;*/  /*on screen*/
+	top: -60px;
+	width: 135px;
+	height: 48px;
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+#thehawaiian img {
+	position: absolute;
+	top: -89px;
+	left: 10px;
+}
+#cta{
+	position: relative;
+	opacity: 0;
+	/*top: -62px;*/
+	top: 0px;
+	left: 360px;
+	width: 135px;
+	height: 35px;
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+#cta img{
+	position: absolute;
+	top: -88px;
+	left: -125px;
+}
+#branding{
+	position: relative;
+	opacity: 0;
+	left: 510px;
+	/*top: -189px;*/ /*on screen*/
+	top: -120px;
+	height: 90px;
+	width: 217px;
+	overflow: hidden;
+}
+#legal{
+	position: absolute;
+	margin: 0px 8px 0px 8px;
+	padding-top: 11px;
+	right: -6px;
+	font-size: 6.5px;
+	color: #FFF;
+	letter-spacing: .5px;
+	text-align: center;
+	-webkit-transform: translateZ(0);
+}
+#logo{
+	position: relative;
+	opacity: 1;
+	top: 11px;
+	left: 48px;
+	width: 260px;
+	height: 60px;
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+#logo img{
+	position: absolute;
+	top: -140px;
+	left: -45px;
+}
+#click-area{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 900;
+	cursor: pointer;
+}

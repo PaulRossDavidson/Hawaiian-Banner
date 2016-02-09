@@ -1,0 +1,91 @@
+<!-- Hat 728 JFK-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="dist/styles.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="ad">
+			<div id="firstscreen">
+			</div>
+			<div id="copy-holder">
+				<div id="instacredit">
+					<img src="dist/img/Hat_728_JFK_Sprite.png" alt="instacredit"/>
+				</div>
+				<div id="amaze">
+					<img src="dist/img/Hat_728_JFK_Sprite.png" alt="amaze"/>
+				</div>
+				<div id="happen">
+					<img src="dist/img/Hat_728_JFK_Sprite.png" alt="happen"/>
+				</div>
+			</div>  <!-- copy-holder -->
+			<div id="book-frame">
+				<div id="route">
+					<img src="dist/img/Hat_728_JFK_Sprite.png" alt="Route"/>
+				</div>
+				<div id="fare">
+						<div id="from-dollar">
+							<div id="from">
+								<img src="dist/img/Hat_728_JFK_Sprite.png" alt="Route"/>
+							</div>
+							<div id="dollar">
+								<img src="dist/img/Hat_728_JFK_Sprite.png" alt="Route"/>
+							</div>
+						</div>  <!-- from-dollar -->
+						<div id="price">
+							<div id="num">
+								902
+							</div>							
+							<div id="asterisk"/>
+								<img src="dist/img/Hat_728_JFK_Sprite.png" alt="Asterisk"/>
+							</div>
+							<div id="return">
+								<img src="dist/img/Hat_728_JFK_Sprite.png" alt="Return"/>
+							</div>
+						</div>   <!-- price -->
+				</div>  <!-- fare -->
+			</div>  <!-- book-frame -->
+			</div>   <!-- ad -->
+			<div id="cta">
+				<img src="dist/img/Hat_728_JFK_Sprite.png" alt="CTA"/>
+			</div>
+			<div id="thehawaiian">
+				<img src="dist/img/Hat_728_JFK_Sprite.png" alt="TheHawaiian"/>
+			</div>
+			<div id="branding">
+				<div id="logo">
+					<img src="dist/img/Hat_728_JFK_Sprite.png" alt="Logo"/>
+				</div>
+				<div id="legal">
+					*Includes roundtrip, taxes and fees. Book by (date) (year).
+				</div>	
+			</div>  <!-- branding -->
+			<div id="click-area">
+			</div>
+	</div>   <!-- wrapper -->
+	<script src="dist/script.js"></script>
+	<script src="dist/EBLoader.js"></script>
+	<script>
+    (function() {
+            window.onload = function() {
+                if (!EB.isInitialized()) {
+                    EB.addEventListener(EBG.EventName.EB_INITIALIZED, startAd);
+                } else {
+                    startAd();
+                }
+            };
+            function startAd() {
+                document.getElementById("click-area").addEventListener("click", clickthrough);
+                main.init();
+            }
+
+            function clickthrough() {
+                EB.clickthrough();
+            }
+        }());
+    </script>
+</body>
+</html>
